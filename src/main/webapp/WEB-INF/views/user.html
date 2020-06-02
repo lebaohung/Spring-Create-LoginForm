@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th>
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+ <h2>Welcome</h2>
+ <h3>Account: <label th:text="${user.getAccount()}"></label></h3>
+ <h3>Name: <label th:text="${user.getName()}"></label></h3>
+ <h3>Email: <label th:text="${user.getEmail()}"></label></h3>
+ <h3>Age: <label th:text="${user.getAge()}"></label></h3>
+</body>
+</html>
