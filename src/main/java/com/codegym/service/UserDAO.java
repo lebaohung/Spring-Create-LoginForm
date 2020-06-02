@@ -15,7 +15,7 @@ public class UserDAO {
         u1.setName("John");
         u1.setAccount("john");
         u1.setEmail("john@codegym.vn");
-        u1.setPassword("123456");
+        u1.setPassword("john");
         users.add(u1);
 
         User u2 = new User();
@@ -23,15 +23,15 @@ public class UserDAO {
         u2.setName("Bill");
         u2.setAccount("bill");
         u2.setEmail("bill@codegym.vn");
-        u2.setPassword("123456");
+        u2.setPassword("bill");
         users.add(u2);
 
         User u3 = new User();
         u3.setAge(16);
         u3.setName("Mike");
         u3.setAccount("mike");
-        u2.setEmail("mike@codegym.vn");
-        u3.setPassword("123456");
+        u3.setEmail("mike@codegym.vn");
+        u3.setPassword("mike");
         users.add(u3);
     }
 
